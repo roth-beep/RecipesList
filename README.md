@@ -5,7 +5,7 @@
  - I took this as an opportunity to focus on some newer features with Swift including Actors, SwiftData and Testing frameworks. This is because I rarely get the opportunity to experiment with these in my day to day. However, I decided to leave out SwiftData because it would conflict with the requirements. Using it with MVVM can look awkward, and it also suffers from the common issues seen in newly introduced iOS libraries.
 
 ### Time Spent: 
- - I spent a couple hours on the SwiftData work but when I decided to cut it because of the issues listed above, I was able to move more smoothly and just take the code I already written and start porting it over. After that it was probably another 3-4 hours plus an extra hour or so I spent today looking over the code and doing any minor clean up and writing this README. I'm not sure though I didn't keep track.
+ - I spent a couple hours on the SwiftData work but when I decided to cut it because of the issues listed above, I was able to move more smoothly and just take the code I already written and start porting it over. After that it was probably another 3-4 hours plus an extra hour or so I spent today looking over the code and doing any minor clean up and writing this README. I'm not sure though I didn't keep track, so this is a rough estimate.
 
 ### Trade-offs and Decisions:
  Yes there are definitely tradeoffs made in the interest of time. 
