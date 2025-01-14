@@ -1,5 +1,6 @@
 ### Summary: 
-![simulator_screenshot_B90B856C-9075-488D-8631-76B8C3E41887](https://github.com/user-attachments/assets/7a7abe90-ca06-4c47-8592-85ea7e55aa8b)
+![Simulator Screenshot - Clone 1 of iPhone 16 Plus - 2025-01-13 at 18 55 42](https://github.com/user-attachments/assets/0896521d-dc42-4f85-9781-a8fab877caea)
+
 
 ### Focus Areas:
  - I took this as an opportunity to focus on some newer features with Swift including Actors, SwiftData and Testing frameworks. This is because I rarely get the opportunity to experiment with these in my day to day. However, I decided to leave out SwiftData because it would conflict with the requirements. Using it with MVVM can look awkward, and it also suffers from the common issues seen in newly introduced iOS libraries.
