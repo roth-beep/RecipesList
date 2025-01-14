@@ -19,7 +19,7 @@ class RecipeListViewModel: ObservableObject {
     }
     
     func start() async {
-        // begin loading indicator
+        // indicate we are loading
         startLoading()
         
         // begin getting our data
@@ -32,6 +32,7 @@ class RecipeListViewModel: ObservableObject {
             self.showError()
         }
         
+        // indicate we are done loading
         self.stopLoading()
     }
     

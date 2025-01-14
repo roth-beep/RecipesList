@@ -25,7 +25,7 @@ struct RecipeListView: View {
         .refreshable {
             await viewModel.refresh()
         }
-        .alert("Sorry user I placed a bad endpoint in here but you can pull to refresh to act like something is happening.",
+        .alert("Sorry user I placed a bad endpoint in here but you can pull to refresh to act like something is happening?",
                isPresented: $viewModel.showAlert) {
             Button("Okay", role: .cancel) { }
         }

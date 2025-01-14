@@ -31,7 +31,7 @@ final class RecipeCardViewModel: ObservableObject {
             print("Error loading image: \(error)")
         }
         
-        // finish loading
+        // indicate we are done loading
         isLoading = false
     }
     
