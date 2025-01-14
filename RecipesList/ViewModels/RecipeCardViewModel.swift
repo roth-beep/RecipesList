@@ -4,7 +4,6 @@ import UIKit
 @MainActor
 final class RecipeCardViewModel: ObservableObject {
     @Published private(set) var image: UIImage?
-    @Published private(set) var isLoading = false
     
     private let imageLoader = ImageRecipeLoader()
     private let recipe: Recipe
@@ -20,9 +19,6 @@ final class RecipeCardViewModel: ObservableObject {
             return
         }
         
-        // indicate we are loading
-        isLoading = true
-        
         // fetch image
         do {
             let loadedImage = try await imageLoader.loadImage(from: url)
@@ -31,8 +27,6 @@ final class RecipeCardViewModel: ObservableObject {
             print("Error loading image: \(error)")
         }
         
-        // indicate we are done loading
-        isLoading = false
     }
     
     func getName() -> String {
