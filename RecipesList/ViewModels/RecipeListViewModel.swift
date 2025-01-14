@@ -2,7 +2,7 @@ import Combine
 import Foundation
 
 @MainActor
-class RecipeListViewModel: ObservableObject {
+final class RecipeListViewModel: ObservableObject {
     // Internal
     @Published var recipes = [Recipe]()
     @Published var isLoading: Bool = false
